@@ -35,8 +35,24 @@ puts "tacos" * 3
 puts "tacos: " + 3.to_s
 
 # Variables
-
+food = "tacos"
+quantity = 3
+puts food + quantity.to_s
 
 # Combine strings and variables
+first_name = "Ruixian"
+puts "hello, " + first_name + "!"
+puts "hello, #{first_name}!"
+
+greeting = "hello, #{first_name}!"
+puts greeting
+
+puts "tacos: #{3}"
+puts "#{food}: #{quantity}"
 
 # String manipulation
+puts "hello".length
+puts "hello".reverse
+puts "hello".upcase
+puts "Hello".downcase
+puts "Hello".swapcase
