@@ -37,5 +37,10 @@ all_foods = favorite_foods.push("more tacos")
 puts all_foods
 # favorite_foods << "more tacos" is also worked, but it doesn't look clear for readers
 
+puts mixed_array.count
+puts mixed_array.length
+puts mixed_array.size
+# they are all the same
+
 # There are lots of fun things you can do with arrays:
 # https://ruby-doc.org/core-2.7.0/Array.html

@@ -15,3 +15,15 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+my_list = ["eggs", "milk", "butter"]
+my_friend_list = ["switch","soy bean sauce","eggs"]
+whole_list = my_list + my_friend_list
+puts whole_list.sort
+
+uniq_whole_list = whole_list.uniq
+puts uniq_whole_list
+
+puts "buy #{uniq_whole_list[0]}"
+
+
