@@ -3,8 +3,17 @@
 # ruby 2-conditionals.rb
 
 # Booleans
+is_true =true
+is_false = false
+
+puts is_true
 
 # Boolean Expressions
+puts 3 > 2
+puts 3 < 2
+puts 3 == 2
+# puts 3 = 2 
+puts 3 != 2
 
 # If Conditional Logic
 
