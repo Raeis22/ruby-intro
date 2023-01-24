@@ -33,6 +33,8 @@ bitcoin = bitcoin.to_f
 bitcoin_bpi = bitcoin_data["bpi"]
 bitcoin_usd_value = bitcoin_bpi["USD"]
 bitcoin_usd_currency = bitcoin_usd_value["rate_float"]
+#bitcoin_usd_currency = bitcoin_data["bpi"]["USD"]["rate_float"]
+
 questions = "1 Bitcoin is valued at #{bitcoin_usd_currency}"
 value = bitcoin * bitcoin_usd_currency
 
